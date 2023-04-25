@@ -1,14 +1,8 @@
-.land {
+.field {
   margin: 40px auto;
   width: 800px;
 }
 
-.row {
+.field__row {
   display: flex;
-}
-
-.tile {
-  height: 80px;
-  width: 80px;
-  background-color: bisque;
 }
