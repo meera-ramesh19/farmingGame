@@ -3,6 +3,7 @@ import Field from './Field';
 
 // Components
 import FieldTile from './components/fieldTile/FieldTile';
+import TileOptions from './components/tileOptions/tileOptions';
 
 // Styling
 import './App.css';
@@ -21,7 +22,11 @@ function App() {
             })}
           </div>)
         })}
+       
       </div>
+      <div className="tiles" >
+           <TileOptions/>
+        </div>
     </div>
   );
 }

@@ -1,0 +1,36 @@
+
+
+.colorName{
+  font-size:1em;
+  margin:20px;
+}
+
+.colorOptions{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:space-evenly;
+    gap:20px;
+}
+
+.featureType{
+  width:40px;
+  height:40px;
+  border:2px solid black;
+}
+
+.forest{
+    background-color: green;
+}
+
+.house{
+    background-color: brown;
+}
+
+.water{
+    background-color: blue;
+}
+
+.land{
+  background-color: beige;
+ 
+}
